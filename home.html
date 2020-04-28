@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+   <meta charset ="UTF-8">
+    <title> LINK SHARE</title>
+</head>
+<body>
+<h1> Welcome to the Kyalio Classroom</h1>   
+<p id="copy">VR 360 Video of Top 5 Roller Coaster Rides 4K Virtual Reality</p>
+<button type="button" onclick="copyEvent('copy')">Copy</button>
+
+<script>
+    function copyEvent(id)
+    {
+        var str = document.getElementById(id);
+        window.getSelection().selectAllChildren(str);
+        document.execCommand("Copy")
+    }
+</script>
+
+<p id="copy2">[3D VIDEO] MoMa SAN FRANCISCO</p>
+<button type="button" onclick="copyEvent('copy2')">Copy</button>
+
+<script>
+    function copyEvent(id)
+    {
+        var str = document.getElementById(id);
+        window.getSelection().selectAllChildren(str);
+        document.execCommand("Copy")
+    }
+</script>
+    
+<p id="copy3">[3D VIDEO] MoMa SAN FRANCISCO</p>
+<button type="button" onclick="copyEvent('copy3')">Copy</button>
+
+<script>
+    function copyEvent(id)
+    {
+        var str = document.getElementById(id);
+        window.getSelection().selectAllChildren(str);
+        document.execCommand("Copy")
+    }
+</script>
+    
+</body>
+
+</html>
